@@ -1,0 +1,164 @@
+Java Automatic Marker 0.1.0
+
+********************************************************************************
+*                          Tests results for DriverTest                        *
+********************************************************************************
+Test case for the getItineraries(String date, String origin, String 
+destination) method (single itinerary with one flight; another itinerary with 
+flight 851 with 0 seats should not be included) failed because of an 
+AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned. Expected itinerary: "850,2014-11-27 
+        04:50,2014-11-27 10:07,Turboprob Airline,Munich,Berlin53605:17" in 
+        output, which was: "851,2014-11-27 04:55,2014-11-27 10:12,Turboprob 
+        Airline,Munich,Berlin0850,2014-11-27 04:50,2014-11-27 10:07,Turboprob 
+        Airline,Munich,Berlin45"
+
+Test case for the getFlights(String date, String origin, String destination) 
+method (single flight) failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) flights or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[3]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (three itineraries with one flight in each) failed because 
+of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[413,2014-11-30 
+        21:22,2014-12-01 01:59,Jetliner Flights,LAX,Pearson98444,2014-11-30 
+        23:22,2014-12-01 03:59,Jetliner Flights,LAX,Pearson45512,2014-11-30 
+        09:30,2014-11-30 16:12,Turboprop Airline,LAX,Pearson76]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (two itineraries with two or three flights in each. First 
+test.) failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[534 -> 156,2014-11-29 
+        16:50,2014-11-30 07:30,Turboprop Airline <-> flight Superprop 
+        Airways,Heathrow,Portland,550100]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (single itinerary with three flights) failed because of an 
+AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        getItineraries(String, String, String) didn't find any itineraries.
+
+Test case for the getFlights(String date, String origin, String destination) 
+method (single flight; arrives the next day) failed because of a 
+ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) flights or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[12]>
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (single itinerary with one flight) failed because of an 
+AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned. Expected itinerary: "414,2014-12-01 
+        05:30,2014-12-01 11:12,Jetliner Flights,Manila,Seoul24005:42" in 
+        output, which was: "414,2014-12-01 05:30,2014-12-01 11:12,Jetliner 
+        Flights,Manila,Seoul50"
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (two itineraries with two or three flights in each) failed 
+because of an AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        getItineraries(String, String, String) didn't find all of the expected 
+        itineraries. Expected itinerary: "534,2014-11-29 16:50,2014-11-30 
+        04:07,Turboprop Airline,Heathrow,LAX156,2014-11-30 05:10,2014-11-30 
+        07:30,Superprop Airways,LAX,Portland55014:40" in output, which was: 
+        "534 -> 156,2014-11-29 16:50,2014-11-30 07:30,Turboprop Airline <-> 
+        flight Superprop Airways,Heathrow,Portland,550100"
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (single itinerary with two flights) failed because of an 
+AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned. Expected itinerary: "402,2014-11-23 
+        15:43,2014-11-23 17:15,Jetliner Flights,Manila,Adelaide495,2014-11-23 
+        17:40,2014-11-23 23:58,Turboprop Flights,Adelaide,Singapore90008:15" in 
+        output, which was: "402 -> 494,2014-11-23 15:43,2014-11-23 
+        23:30,Jetliner Flights <-> flight Turboprop 
+        Flights,Manila,Singapore,9005402 -> 495,2014-11-23 15:43,2014-11-23 
+        23:58,Jetliner Flights <-> flight Turboprop 
+        Flights,Manila,Singapore,90014403 -> 494,2014-11-23 16:19,2014-11-23 
+        23:30,Jetliner Flights <-> flight Turboprop 
+        Flights,Manila,Singapore,90016403 -> 495,2014-11-23 16:19,2014-11-23 
+        23:58,Jetliner Flights <-> flight Turboprop 
+        Flights,Manila,Singapore,90025"
+
+Test case for the getItineraries(String date, String origin, String 
+destination) method (three itineraries with one or two flights in each) failed 
+because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[512 -> 103,2014-11-30 
+        09:30,2014-11-30 20:52,Turboprop Airline <-> flight Jetliner 
+        Flights,LAX,Portland,380132156,2014-11-30 05:10,2014-11-30 
+        07:30,Superprop Airways,LAX,Portland76]>
+
+Test case for the getItinerariesSortedByCost(String date, String origin, String 
+destination) method failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[512,2014-11-30 
+        09:30,2014-11-30 16:12,Turboprop Airline,LAX,Pearson76]>
+
+Test case for the getItinerariesSortedByTime(String date, String origin, String 
+destination) method failed because of a ComparisonFailure.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) itineraries or string 
+        output was returned.After removing all expected output, unexpected 
+        output remained: expected:<[]> but was:<[512,2014-11-30 
+        09:30,2014-11-30 16:12,Turboprop Airline,LAX,Pearson76]>
+
+Test case for the getFlights(String date, String origin, String destination) 
+method (two flights) failed because of an AssertionError.
+    Why do I have an AssertionError?
+        Your function/method returned the wrong value or had an unexpected 
+        side-effect. For example, it may have modified a value it should not 
+        have.
+    Details:
+        Unexpected (incorrect or incorrectly formatted) flights or string 
+        output was returned. Expected flight: "802,2014-11-23 15:43,2014-11-23 
+        17:15,Jetliner Flights,Meath,Madrid,179" in output, which was: 
+        "803,2014-11-23 15:49,2014-11-23 17:22,Jetliner 
+        Flights,Meath,Madrid,1795"
+
+
+********************************************************************************
+*                        SUMMARY @ 2015/04/08 12:47:37                         *
+********************************************************************************
+    Tests passed: 1
+    Tests run: 14

@@ -1,0 +1,38 @@
+---Friday, March 20---
+g4rekt - Committed initial base files for front end to startup.
+
+
+---Monday, March 23---g4rekt - Added Billing and Billing Manager to package in Phase III and serialized them.
+---Tuesday, March 24---g4rekt - Planning to implement Personal and Personal Manager classes in the frontend--Finished.
+c4kobaya - created
+
+—Thursday, March 26 — 
+c4vilela — Started a method on Main Activity to authenticate if the user logging is an admin or a client. Plans to finish it by Friday. 
+c3hanzif - created usersignup.xml
+c4kobaya - Created a new activity display flight and display itinerary which displays the flights in a list view after the search activity is called. 
+
+
+---Wed, March 25---g4rekt - Finished Phaseiiia, Trail consists of two activities, 1 takes in user personal info, does not differentiate between admin and client, and displays the taken info in another display activity.
+c3hanzif - created usersignup.java fpr user to sign up/
+c4kobaya - Created the search Activity which searches flights based on the user information and then uses the backend flight manager to find the fligts
+
+—Friday, March 27—
+c4kobaya - created the display billing activity and the xml file that displays the clients information. It also contains a save file which overrides the pervious user information to the current user information. 
+
+—Saturday, March 28—
+c4kobaya - created the display booked activity and the xml file. This activity displays the clients booked flights on a list view. Another list view is also used to display the transfer flights. but at the moment displaying of the transfer flights doesn’t not work. 
+
+
+—Sunday, March 29—
+c4kobaya - fixed all the errors that occurs in the display flights and itinerary activities. 
+
+--Monday, March 30--
+c4vilela - did part of the backend of UserAuthenticat at MainAcivity.java
+Made alterations UserSignUp.java, so it could write and read from the internal storage
+
+--Tuesday, March 31--
+g4rekt - finished write part for userSignup
+g4rekt - planning to finish read part for admin, client, and user sign in
+c3hanzif - doing javadoc for all .java
+c4vilela - did cdc.pdf 
+c4kobaya - fixed sorting by cost and travel time 
